@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* header section */
+header {
+    background-color: #2f2e2e;
+    color: white;
+    padding: 15px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 0 15px;
+    padding: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+/* about me section */
+section {
+    padding: 50px;
+    background: white;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+#about img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+/* projects section */
+.projects{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-self: stretch;
+}
+.project {
+    display: inline-block;
+    max-width: 350px;
+    min-width: 350px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #ebe8e8;
+    border-radius: 10px;
+    text-align: start;
+}
+.project h3{
+    text-wrap: nowrap;
+}
+
+.project img {
+    width: 100%;
+    border-radius: 5px;
+    height: 150px;
+}
+
+/* Contact Me */
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+form input,
+textarea {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #6b6b6b;
+}
+
+form label {
+    text-align: start;
+}
+
+button {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #2f2e2e;
+    background-color: #2f2e2e;
+    color: #ffff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(52, 4, 143);
+}
+
+/* Footer */
+footer {
+    background-color: #2f2e2e;
+    color: #fff;
+    padding: 15px 0;
+}
